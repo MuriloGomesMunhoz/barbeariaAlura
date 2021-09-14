@@ -1,0 +1,147 @@
+header{
+  background: #BBBBBB;  /*cor de fundo*/
+  padding:20px 0;   /* aumentar a distancia entre os elementos dentro do header*/
+}
+
+.caixa{
+  position: relative; /* Posição relativa você consgue mudar a posição inicial do elemento*/
+  width: 940px; /* tamanho */
+  margin: 0 auto;/* a margin vc muda a distancia do bloco inteiro de outro bloco*/
+}
+
+nav{
+  position: absolute; /* a posição absoluta usa a posição inicial de acordo com o elemento antes dela */
+  top: 110px; /*aumentar a distancia do topo do site*/
+  right: 0; /*posição da esquerda*/
+}
+
+nav li{
+  display: inline; /*o display ele segue uma linha*/
+  margin: 0 0 0 15px; /*margin para esquerda */
+}
+
+nav a{
+  font-size: 22px;
+  color: black;
+  text-decoration: none; /*o texto fica sem o estilo inicial do google*/
+  text-transform: uppercase; /*tudo em maiuscula*/
+}
+
+nav a:hover{ /*quando o mause passa em cima do texto*/
+  color: #c78c19;
+  text-decoration: underline; /* linha embaixo do texto*/
+
+}
+
+.product{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produto-descricao{
+  font-size: 18px;
+}
+
+.produto-preco{
+  font-size: 20px;
+  font-weight: bold; /* texto em negrito*/
+  margin-top: 10px;
+}
+
+.product li:hover{
+  border-color: #c78c19;
+}
+
+.product li:active{/*quando o mouse clica*/
+
+  border-color: green;
+}
+
+.product li:hover h2{
+  font-size: 34px;
+}
+
+.product li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  background: url(assets/bg.jpg);
+  padding: 40px 0;
+}
+.copyrighters{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+main{
+  width: 940px;
+  margin:0 auto;
+}
+
+form{
+  margin: 40px 0;
+
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+.checkbox{
+  margin: 20px 0;
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 1s all;
+
+}
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+
+}
+thead{
+  background: #555555;
+  color: white;
+  font-weight: bold;
+
+
+}
+td , th{
+  border:  solid black;
+  padding: 8px 15px;
+}
